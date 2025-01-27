@@ -123,20 +123,19 @@ h1,h2,h3,p{
 }
 
 .info{
-    inset: 0px;
+    inset: -25px;
     margin: auto;
-
     padding: 15px;
 }
 
 .main_alias{
     text-align: right;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     background: linear-gradient(to right, #ff2b39, #c61881);
     background-clip: text;
     -webkit-text-fill-color: transparent; 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-right: 2%;
 }
 
