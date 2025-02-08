@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="./node_modules/@picocss/pico/css/pico.min.css">
+        <link rel="stylesheet" href="/style.css">
+        
+
+        <title>Hello world!</title>
+    </head>
+
+    <body>
+        
+        <!-- home -->
+        <div id="hero">
+            <!-- Hero Section -->
+            <section class="grid container ">
+                <div class="grid">
+                    <div>
+                        <img id="logo" src="assets/images/logo.jpg">
+                    </div>
+                    <div id="hero_description">
+                        <hgroup>
+                            <h1>WASD Corporation</h1>
+                            <h3>Funeral Parlor</h3>
+                            <h4> Honoring Lives, Providing Comfort</h4>
+                        </hgroup>
+                        <p>Dignified funeral services with care, compassion, and respect. Let us guide you through this difficult time.</p>
+                        <button onClick="document.getElementById('contact').scrollIntoView();">Contact Us 24/7</button>
+                    </div>
+                </div>                
+            </section>
+            
+        </div>
+
+        <!-- About -->
+        <div id="about" >
+            <section class="grid container"> 
+                <div class="grid">
+                    <div id="description" class="container">
+                        <h2>About WASD Corporation</h2>
+                        <p>
+                            At <strong>WASD Corporation Funeral Parlor</strong>, we are committed to providing dignified and compassionate funeral services. 
+                            With years of experience, we understand the importance of honoring loved ones and offering comfort to grieving families.
+                        </p>
+                        <p>
+                            Our dedicated team ensures that every service is handled with respect, professionalism, and attention to detail.
+                            We offer a range of funeral arrangements, memorial services, and support to help families through their difficult times.
+                        </p>
+                    </div>
+                    <div class="container" >
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- services -->
+        <div id="service" >
+            <section class="grid container"> 
+                
+                <div id="description" class="container">
+                        <h1>Our Services</h1>
+                        <p>We provide compassionate and dignified funeral services tailored to your needs.</p>
+                        <hr data-theme="light" style="background-color: white;">
+                        <div class="grid">
+                            <article>
+                                <h3>Traditional Funeral</h3>
+                                <p>Complete service with memorial, viewing, and burial arrangements.</p>
+                            </article>
+                    
+                            <article>
+                                <h3>Cremation Services</h3>
+                                <p>Respectful cremation options with personalized memorial services.</p>
+                            </article>
+                    
+                            <article>
+                                <h3>Pre-Planning</h3>
+                                <p>Plan ahead to ease the burden on your loved ones.</p>
+                            </article>
+                    
+                            <article>
+                                <h3>Memorial Services</h3>
+                                <p>Customizable services to honor your loved one’s memory.</p>
+                            </article>
+                        </div>
+                        
+                    <div class="container">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- contact -->
+        <div id="contact" >
+            <section class="grid container"> 
+                
+                    <div id="description" class="container">
+                        <h2>Contact Us</h2>
+                        <p>We are here to assist you 24/7. Reach out to us for any inquiries or support.</p>
+                        <hr data-theme="light" style="background-color: white;">
+
+                        <div class="grid">
+                            <div class="container">
+                                <div>
+                                    <h3>Visit Us</h3>
+                                    <p>123 Memorial Street, Pag-asa Island, Kalayaan, Palawan , Phillipines</p>
+                                </div>
+
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p><a href="tel:+639190696361">+63 919 069 6361</a></p>
+                                </div>
+
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p><a href="mailto:info@wasdcorp.com">contact@wasdcorp.com</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <form>
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+    
+                                    <button type="submit">Send Message</button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    <div class="container">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

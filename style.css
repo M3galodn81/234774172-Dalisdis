@@ -1,0 +1,118 @@
+/* general */
+#description{
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+article:hover{
+box-shadow: 0 0 15px #2A3140;
+}
+
+/* hero */
+#hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+#hero::before {
+    background: url('/assets/images/abbey-1851493_1920.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+
+#hero section{
+    position: relative;
+    z-index: 2;
+    
+}
+
+#hero_description{
+    text-align: center;
+}
+
+#logo{
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+}
+
+/* about */
+#about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+#about::before {
+    background: url('/assets/images/pexels-pavel-danilyuk-7317916.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+
+/* Services */
+#service{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+#service::before {
+    background: url('/assets/images/pexels-pavel-danilyuk-7317916.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+
+/* Contact */
+#contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    position: relative;
+}
+
+#contact::before {
+    background: url('/assets/images/pexels-pavel-danilyuk-7317916.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+}
+
+@media (max-width: 1450px) {
+
+}
+
+@media (max-width: 1200px) {
+    #logo{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+}
+
