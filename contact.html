@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="color-scheme" content="light dark">
+
+        <link rel="stylesheet" href="./node_modules/@picocss/pico/css/pico.min.css" />
+        <link rel="stylesheet" href="./style.css" />
+        
+        <script src="./script.js"></script>
+
+        <title>WASD Corporation</title>
+    </head>
+
+    <body>
+        
+        <!-- contact -->
+        <div id="contact" >
+            <header>
+                <nav class="container">
+                    <ul>
+                        <li><img src="./assets/images/logo.jpg" style="width: 100px; height: auto; max-width: 100%;"></li>
+                        <li><strong>Acme Corp</strong></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/services.html">Services</a></li>
+                        <li><a  class="secondary disabled">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+            <section class="grid container"> 
+                
+                    <div id="description" class="container">
+                        <h2>Contact Us</h2>
+                        <p>We are here to assist you 24/7. Reach out to us for any inquiries or support.</p>
+                        <hr data-theme="light" style="background-color: white;">
+
+                        <div class="grid">
+                            <div class="container">
+                                <div>
+                                    <h3>Visit Us</h3>
+                                    <p>123 Memorial Street, Pag-asa Island, Kalayaan, Palawan , Phillipines</p>
+                                </div>
+
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p><a href="tel:+639190696361">+63 919 069 6361</a></p>
+                                </div>
+
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p><a href="mailto:info@wasdcorp.com">contact@wasdcorp.com</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <form>
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+    
+                                    <button type="submit">Send Message</button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    <div class="container">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const header = document.querySelector("header");
+                document.body.style.paddingTop = header.offsetHeight/2 + "px";
+            });
+        </script>
+    </body>
+</html>
